@@ -15,6 +15,7 @@ class CreateTalumnosTable extends Migration
     {
         Schema::create('t_alumnos', function (Blueprint $table) {
             $table->increments('id_t_usuarios');
+            $table->string('nombre', 80);
             $table->string('ap_paterno', 80);
             $table->string('ap_materno', 80);
             $table->smallInteger('activo');
@@ -29,6 +30,6 @@ class CreateTalumnosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('talumnos');
+        Schema::dropIfExists('t_alumnos');
     }
 }

@@ -17,6 +17,7 @@ class CreateTCalificacionesTable extends Migration
             $table->increments('id_t_calificaciones');
             $table->unsignedInteger('id_t_materias');
             $table->unsignedInteger('id_t_usuarios');
+            $table->decimal('calificacion', 10, 2);
             $table->foreign('id_t_materias')->references('id_t_materias')->on('t_materias');
             $table->foreign('id_t_usuarios')->references('id_t_usuarios')->on('t_alumnos');
             $table->timestamps();
