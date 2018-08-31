@@ -80,7 +80,7 @@ class StudentController extends Controller
 					  	 	$test->calificacion=$value;
 					  	 	$test->save();
 
-					  	 $respuesta = array("success" => "correcto", "msg" =>$value);
+					  	 $respuesta = array("success" => "correcto", "msg" =>"calificacion actualizada");
 
 					
 				}
@@ -130,7 +130,7 @@ class StudentController extends Controller
 					]); 
 
 
-					  	 $respuesta = array("success" => "correcto", "msg" =>$value);	
+					  	 $respuesta = array("success" => "ok", "msg" =>'calificacion registrada');	
 					  	 }	
 				     		
 				}
