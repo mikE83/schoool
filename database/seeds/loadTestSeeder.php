@@ -24,7 +24,7 @@ class loadTestSeeder extends Seeder
     			$calificacion->create([
     				'id_t_usuarios' => $estudiante->id_t_usuarios,
 					'id_t_materias' => $materia->id_t_materias,
-					'calificacion' => rand(0,10)	
+					'calificacion' => rand(5,10)	
     			]);
     		}	
     	}

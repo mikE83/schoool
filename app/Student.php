@@ -18,7 +18,7 @@ class Student extends Model
     	if ($this->tests->count() > 0){
     		foreach ($this->tests as $test) {
     			$resp[$counter]= array(
-    			'id_t_usuario' => $test->id_t_usuario,
+    			'id_t_usuario' => $test->id_t_usuarios,
     			'nombre'=> $this->nombre,
     			'apellido_paterno'=>$this->ap_paterno,
     			'apellido_materno'=>$this->ap_materno,
