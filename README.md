@@ -1,11 +1,11 @@
 # schoool
 Api REST in laravel
 
-**Lenguaje de programacion** PHP7
-**FRAMEWORK** LARAVEL 5.5
-**Security** Passport Oauth
+1. **Lenguaje de programacion** PHP7
+2. **FRAMEWORK** LARAVEL 5.5
+3. **Security** Passport Oauth
 
-DEFAULT DATABASE ARE POSTGRES YOU CAN CHANGE using  **.env** and **app\database.php**
+* DEFAULT DATABASE ARE POSTGRES YOU CAN CHANGE using  **.env** and **app\database.php**
 
 To install folow the instructions:
 
