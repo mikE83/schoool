@@ -18,3 +18,13 @@ To install folow the instructions:
 
 Para revisar las funcionalidades favor de descargar el manual en el siguiente link
 
+**Modelos**
+/var/www/html/school/app
+Student Modelo que se encarga de integrarse con con la tabla t_alumnos 
+Courses Modelo que se encarga con integrarse con la tabla t_materias
+Califcations Modelo que se encarga con integrarse con la tabla t_calificaciones
+
+
+**Controladores**
+school/app/Http/Controllers
+StudentController.php Controlador que se encarga de realizar y resolver las peticiones de la prueba
