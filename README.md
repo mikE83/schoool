@@ -16,8 +16,8 @@ To install folow the instructions:
 
 **to load database structure and data you need to run the next comand 
 
-#H2 **Para revisar las funcionalidades favor de descargar el manual en el siguiente link
-**Importante
+#**Para revisar las funcionalidades favor de descargar el manual en el siguiente link**
+**Importante**
 [MANUAL DE USO](https://github.com/mikE83/schoool/blob/master/FichaPruebaPagoFacil%20(1).pdf
 )
 
